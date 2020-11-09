@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background-color: #fff;
+  display: flexbox;
+}
+header {
+  background-image: url(../img/objects/fon-header13.png);
+  position: sticky;
+  top: 0px;
+  height: 90px;
+  background-color: fff;
+  padding: 10px 0;
+}
+.menu-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+nav {
+  background-image: url(../img/objects/fon-header13.png);
+  position: absolute;
+  right: 15%;
+  top: 70px;
+  left: 0;
+  width: 100%;
+}
+nav ul {
+  list-style-type: none;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+nav ul li {
+  padding: 0 15px;
+}
+nav ul li a {
+  display: inline-block;
+  padding: 12px;
+  color: rgba(26, 51, 4, 0.698);
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  font-size: larger;
+  font-family: 'Montserrat', sans-serif;
+}
+nav ul li a:hover,
+nav ul li a:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgba(108, 158, 84, 0.692);
+}
+#checkbox {
+  display: none;
+}
+#checkbox:checked ~ nav ul {
+  max-height: 200px;
+  padding: 15px 0;
+  transition: all 0.5s;
+}
+@media (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+  nav {
+    background-image: url(../img/objects/fon-header13.png);
+    position: relative;
+    top: -10px;
+    background-color: transparent;
+  }
+  nav ul {
+    max-height: 70px;
+    padding: 15px 0;
+    text-align: right;
+  }
+  nav ul li {
+    display: inline-flex;
+    padding-left: 20px;
+  }
+}
+
+.lable {
+  position: relative;
+  left: 3%;
+  top: 0%;
+  display: inline-block;
+  font-weight: 600;
+  text-decoration: darkolivegreen;
+
+  color: rgba(41, 78, 7, 0.698);
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  text-align: center;
+}

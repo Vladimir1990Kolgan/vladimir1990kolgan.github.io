@@ -1,0 +1,20 @@
+img {
+  max-width: 350px;
+}
+
+.block-main {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+figure {
+  text-align: center;
+}
+
+/* .block-main img {
+  flex-basis: 100px;
+  justify-content: center;
+  width: 30%;
+} */

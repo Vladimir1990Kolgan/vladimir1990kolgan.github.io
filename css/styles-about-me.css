@@ -1,0 +1,19 @@
+.about-me-container {
+  display: inline;
+}
+.photo-about-me {
+  width: 40%;
+  float: left;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.text-about-me {
+  padding-right: 5%;
+
+  padding-top: 10%;
+  padding-bottom: 1%;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+}
