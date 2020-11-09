@@ -12,7 +12,19 @@ img {
 figure {
   text-align: center;
 }
-
+.block-main a {
+  display: inline-block;
+  padding: 12px;
+  color: rgba(26, 51, 4, 0.698);
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  font-size: larger;
+  font-family: 'Montserrat', sans-serif;
+}
+.block-main a:hover,
+.block-main a:focus {
+  color: rgba(108, 158, 84, 0.692);
+}
 /* .block-main img {
   flex-basis: 100px;
   justify-content: center;

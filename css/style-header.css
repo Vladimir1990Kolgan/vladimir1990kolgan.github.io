@@ -9,7 +9,7 @@ body {
   display: flexbox;
 }
 header {
-  background-image: url(../img/objects/fon-header13.png);
+  background-color: #fff;
   position: sticky;
   top: 0px;
   height: 90px;
@@ -23,7 +23,7 @@ header {
 }
 
 nav {
-  background-image: url(../img/objects/fon-header13.png);
+  background-color: #fff;
   position: absolute;
   right: 15%;
   top: 70px;
@@ -66,7 +66,7 @@ nav ul li a:focus {
     display: none;
   }
   nav {
-    background-image: url(../img/objects/fon-header13.png);
+    background-color: #fff;
     position: relative;
     top: -10px;
     background-color: transparent;
@@ -89,7 +89,6 @@ nav ul li a:focus {
   display: inline-block;
   font-weight: 600;
   text-decoration: darkolivegreen;
-
   color: rgba(41, 78, 7, 0.698);
   font-family: 'Montserrat', sans-serif;
 }
